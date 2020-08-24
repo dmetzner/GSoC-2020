@@ -1,8 +1,8 @@
 ## Background
 
-The **[Share community platform](https://share.catrob.at/app/)** is a web application responsible for hosting dynamic user data, including more than 180 thousand projects, of [Catrobats](https://www.catrobat.org/)' [app](https://wiki.catrobat.org/bin/view/AboutCatrobat/CatrobatApps/) users. Besides, the platform provides various recommendations, social features, tutorials, and much more. The platform, also often referred to as [Catroweb](https://github.com/Catrobat/Catroweb), is developed using the [Php](https://www.php.net/manual/de/intro-whatis.php) web-framework [Symfony](https://symfony.com/) in a test-driven development. However, over the years, many components of the project became outdated and broken, leaving the project hard to maintain with low usability. The Catroweb team does it's best to refactor and update every feature to increase the software quality. Nevertheless, the resources are limited in the Catrobat project. 
+The **[Share community platform](https://share.catrob.at/app/)** is a web application responsible for hosting dynamic user data of [Catrobats](https://www.catrobat.org/)' [app](https://wiki.catrobat.org/bin/view/AboutCatrobat/CatrobatApps/) users, including more than 180 thousand projects. Besides, the platform provides various recommendations, social features, tutorials, and much more. The platform, also often referred to as [Catroweb](https://github.com/Catrobat/Catroweb), is developed using the [Php](https://www.php.net/manual/de/intro-whatis.php) web-framework [Symfony](https://symfony.com/) in a test-driven development. However, over the years, many components of the project became outdated and broken, leaving the project hard to maintain with low usability. The Catroweb team does its best to refactor and update every feature to increase software quality. Nevertheless, the resources are limited in the Catrobat project.
  
-[Google Summer of Code (GSoC)](https://summerofcode.withgoogle.com/) is a global program that matches students up with open source, free software and technology-related organizations to write code and get paid to do it. This **GSoC project** is fully dedicated to further **improve the performance, code quality, and design** to satisfy the requirements of customers and developers in the **Catrobat/Catroweb** project.
+[Google Summer of Code (GSoC)](https://summerofcode.withgoogle.com/) is a global program that matches students up with open-source, free software, and technology-related organizations to write code and get paid to do it. This **GSoC project** is fully dedicated to further **improve the performance, code quality, and design** to satisfy the requirements of customers and developers in the **Catrobat/Catroweb** project.
 
 This report describes my GSoC 2020 contributions to the Catroweb project. A significant part of my work started with the **research and planning** aspects **of the refactoring**. Every **pull request of other developers** during this project was **extensively reviewed** and discussed.  Apart from that, **various measurements and new features** have been **implemented** by myself.
 
@@ -11,7 +11,7 @@ This report describes my GSoC 2020 contributions to the Catroweb project. A sign
 #### Code quality: 
 - The CI/CD system currently in development (not part of this project) using GitHub actions introduced various **static analysis tools** in addition to the dynamic tests. Using their results enables quick **localization of code smells** and bad practices hidden deeply in the project.
 
-- Doing manual **code reviews** of new contributions, but also of the existing codebase detects even more issues.
+- With manual **code reviews** of new contributions and also of the existing codebase, many issues can be detected.
 
 #### Performance:
 -  To analyze the platform's performance, a development tool provided by Google called [PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/) is used. **PageSpeed Insights** offers extensive details about the impact of possible issues. 
@@ -21,14 +21,14 @@ This report describes my GSoC 2020 contributions to the Catroweb project. A sign
 
 ## Phase 2 - Planning
 
-1.  All the identified issues **tickets** have been **created** to keep track of their state in [Jira](https://www.atlassian.com/de/software/jira). Jira is a tool to manage and monitor the development process heavily used in the Catrobat project and its agile development. Various tickets required the input of the UX-team. The UX-team is responsible for creating mock-ups and defining the workflow of a new feature. However, a part of this theses was to constantly provide the UX team with extensive feedback to ensure the features are fully specified. The conversations are not publicly available. (PM, or [Catrobats confluence pages](https://confluence.catrob.at/))
+1.  All the identified issues **tickets** have been **created** to keep track of their state in [Jira](https://www.atlassian.com/de/software/jira). Jira is a tool to manage and monitor the development process heavily used in the Catrobat project and its agile development. Various tickets required the input of the UX-team. The UX-team is responsible for creating mock-ups and defining the workflow of a new feature. However, a part of this project was to constantly provide the UX team with extensive feedback to ensure the features are fully specified. The conversations are not publicly available. (PM, or [Catrobats confluence pages](https://confluence.catrob.at/))
 
-2. Presenting all issues in a **planning game** to the whole team collectively estimate the required work to implement the tickets. Besides, this provides all developers with a short overview of the topic. This way, everyone can quickly start work on such issues. [Here](https://docs.google.com/spreadsheets/d/1a6zUVBO7E9PENKcAw1-RSjDckfzoV2y1BKmnt1ZFEZw/edit?usp=sharing) is the Google spreadsheet created for this process.
+2. Presenting all issues in a **planning game** to the whole team collectively estimate the required work to implement the tickets. Besides, this provides all developers with a short overview of the topic. This way, everyone can quickly start to work on any of the defined issues. [Here](https://docs.google.com/spreadsheets/d/1a6zUVBO7E9PENKcAw1-RSjDckfzoV2y1BKmnt1ZFEZw/edit?usp=sharing) is the Google spreadsheet created for this process.
 
 ## Phase 3 - Implementing all tickets
 
 #### CodeReviews
-Other members of the Catroweb team coded many of the specified issues. I did only the code reviews. Some reviews were quick, while others, especially those for junior developers, were more extensive.
+Other members of the Catroweb team coded many of the specified issues. However, I did the code reviews. Some reviews were quick, while others, especially those for junior developers, were more extensive.
 
 -   For example, the first part of the new Notifications Design can be seen here: [Example code review](https://github.com/Catrobat/Catroweb/pull/798). However, most conversations at Catrobat happened in Slack/Discord.
 
@@ -86,16 +86,16 @@ My created pull requests can be seen here: [Only pull request newer than 2020-05
 
 ## Phase 4 - Future work
 
-The Catroweb project slowly finds itself in a stable state again. A software product will never be perfect. The goal is to find a balance between software quality and the required resourced to achieve it. The following bullet points represent actions with a high return of investment; however, they were not possible to be implemented at the moment.
+The Catroweb project slowly finds itself in a stable state again. A software product will never be perfect. The goal is to find a balance between software quality and the required resources to achieve it. The following bullet points represent actions with a high return of investment. However, they were not possible to be implemented at the moment.
 
 ##### Currently NOT possible
 
 -   **Php 8**: The next release of Php brings various new features such as [the JIT compiler](https://stitcher.io/blog/new-in-php-8#jit-rfc), [union types](https://stitcher.io/blog/new-in-php-8#union-types-rfc), and [attributes](https://stitcher.io/blog/new-in-php-8#attributes-rfc). The deprecations are already resolved. An upgrade should be easy.
 
--   **Symfony 5**: [The newest release of Symfony](https://symfony.com/5) comes with several improvements. One of them is a better performance! However, several dependencies block the upgrade at the moment ([SonataUserBundle](https://github.com/sonata-project/SonataUserBundle/issues/1112), [FOSElasticaBundle](https://github.com/FriendsOfSymfony/FOSElasticaBundle/issues/1624)). The depreciations were already almost all resolved. Once there is no problem with the dependencies, the update should be easy!
+-   **Symfony 5**: [The newest release of Symfony](https://symfony.com/5) comes with several improvements. One of them is a better performance. However, several dependencies block the upgrade at the moment ([SonataUserBundle](https://github.com/sonata-project/SonataUserBundle/issues/1112), [FOSElasticaBundle](https://github.com/FriendsOfSymfony/FOSElasticaBundle/issues/1624)). Other deprecations are already almost all resolved. Once there is no problem with the dependencies, the update should be easy.
 
 ##### Not possible in the given time frame:
 
-- The recommendation system must be refactored!
-- The remix graph system must be refactored!
-- Implementing Studios. (only the planning phase was finished)
+- The recommendation system must be refactored
+- The remix graph system must be refactored
+- Implementing Studios (only the planning phase was finished)

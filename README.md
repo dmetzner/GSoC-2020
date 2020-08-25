@@ -96,5 +96,6 @@ The Catroweb project slowly finds itself in a stable state again. A software pro
 
 ##### Not possible in the given time frame:
 
-- The recommendation system must be refactored. A single run takes 90 days + it always starts from scratch.
-- The remix graph system must be refactored. Remixes for projects with many remixes load very slow + DB queries are executed with a size of multiple KB.
+- The **recommendation system** must be refactored. A single run takes 90 days + it always starts from scratch.
+
+- The **remix graph system** must be refactored. Remixes for projects with many remixes load very slow + DB queries are executed with a size of multiple KB.

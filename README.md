@@ -84,7 +84,7 @@ My created pull requests can be seen here: [Only pull request newer than 2020-05
 - [Loading of youtube js](https://github.com/Catrobat/Catroweb/commit/2b5736bb0c0861621f672f9164bbc7a1680a0d24)
 -  [Updated/removed many dependencies](https://github.com/Catrobat/Catroweb/pulls?q=is%3Apr+involves%3Admetzner+involves%3Adependabot)  (most work was done by  [Dependabot](https://dependabot.com/), only deprecations had to be fixed manually)
 
-## Phase 4 - Future work
+## Future work
 
 The Catroweb project slowly finds itself in a stable state again. A software product will never be perfect. The goal is to find a balance between software quality and the required resources to achieve it. The following bullet points represent actions with a high return of investment. However, they were not possible to be implemented at the moment.
 

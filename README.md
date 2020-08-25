@@ -32,7 +32,7 @@ Other members of the Catroweb team coded many of the specified issues. However, 
 
 -   For example, the first part of the new Notifications Design can be seen here: [Example code review](https://github.com/Catrobat/Catroweb/pull/798). However, most conversations at Catrobat happened in Slack/Discord.
 
-Here is the whole list of (~200) pull requests I have reviewed: [Reviewed pull request newer than 2020-05-01 (Catrobat/Catroweb)](https://github.com/Catrobat/Catroweb/pulls?page=8&q=is%3Apr+reviewed-by%3Admetzner+created%3A%3E%3D2020-05-01).
+Here is the whole list of (~200) pull requests I have reviewed: [Reviewed pull request newer than 2020-05-01 (Catrobat/Catroweb)](https://github.com/Catrobat/Catroweb/pulls?page=8&q=is%3Apr+reviewed-by%3Admetzner+created%3A%3E%3D2020-05-01), [Reviewed pull request newer than 2020-05-01 (Catrobat/Catroweb-API)](https://github.com/Catrobat/Catroweb-API/pulls?q=is%3Apr+involves%3Admetzner+created%3A%3E%3D2020-05-01).
 
 #### Coding
 
@@ -98,4 +98,3 @@ The Catroweb project slowly finds itself in a stable state again. A software pro
 
 - The recommendation system must be refactored
 - The remix graph system must be refactored
-- Implementing Studios (only the planning phase was finished)

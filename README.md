@@ -69,6 +69,7 @@ My created pull requests can be seen here: [Only pull request newer than 2020-05
 - [Debug projects only hidden in production](https://github.com/Catrobat/Catroweb/commit/7653bd9fee7cc16ed9d7bed85deebbd2fe1d7a7d)
 - [Fixed alpine-chrome version](https://github.com/Catrobat/Catroweb/commit/b0d1ab99c9d6b3f809a0e6c4b625f7dce590047d)
 - [Project data was not updated correctly](https://github.com/Catrobat/Catroweb/commit/a321910c50780191efd1d1a1301f956e5ac999f0)
+- [Sanitizer for preview images](https://github.com/Catrobat/Catroweb/pull/866/commits/3c8d31459839acb6c6591a58af6d750078f53358)
 - [Deprecated Google Sign in](https://github.com/Catrobat/Catroweb/commit/0b75cad997156d52160aae70dcd41c64edb3f336)
 - [iOSwebView](https://github.com/Catrobat/Catroweb/commit/1f56ea6749d0c7100b82168b8030456a4cdebfc8)
 - [Logging](https://github.com/Catrobat/Catroweb/commit/d01c1d5b1c66ad61abe5c3114047ca1119a351cb)
@@ -82,7 +83,8 @@ My created pull requests can be seen here: [Only pull request newer than 2020-05
 - [Unit translations](https://github.com/Catrobat/Catroweb/commit/885981f703d8255781355b43fd9d41280ea2f48b)
 - [Docker missing shared volume](https://github.com/Catrobat/Catroweb/commit/92b4d6a1a841f71122d54d327728b9f5dd4d4482)
 - [Loading of youtube js](https://github.com/Catrobat/Catroweb/commit/2b5736bb0c0861621f672f9164bbc7a1680a0d24)
--  [Updated/removed many dependencies](https://github.com/Catrobat/Catroweb/pulls?q=is%3Apr+involves%3Admetzner+involves%3Adependabot)  (most work was done by  [Dependabot](https://dependabot.com/), only deprecations had to be fixed manually)
+- [Hotfix apple app site association](https://github.com/Catrobat/Catroweb/pull/865/commits/923fae664166b682ebe3724f27bcffe0991559c5)
+- [Updated/removed many dependencies](https://github.com/Catrobat/Catroweb/pulls?q=is%3Apr+involves%3Admetzner+involves%3Adependabot)  (most work was done by  [Dependabot](https://dependabot.com/), only deprecations had to be fixed manually)
 
 ## Future work
 

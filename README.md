@@ -49,7 +49,8 @@ My created pull requests can be seen here: [Only pull request newer than 2020-05
 - [Typography](https://github.com/Catrobat/Catroweb/commit/e1aa2610d4adb8b27510f42225182efa5ab22f5a)
 - [Code Statistics](https://github.com/Catrobat/Catroweb/commit/01e917b6a7fa5a4af2b9249d1e308f0bf92ae6e7)
 - [Code View](https://github.com/Catrobat/Catroweb/commit/45df603a107efefbb13362a3c6c1f21d7584264f)
-- [Follower](https://github.com/Catrobat/Catroweb/commit/1c17d51728974db1bb99d5aac33b58a4b61a3371) (only parts of the new follower design were done by myself - 2 other developers were involved)
+- [Follower - refactorings and fixes](https://github.com/Catrobat/Catroweb/commit/1c17d51728974db1bb99d5aac33b58a4b61a3371)
+- [ProjectList - final adjustments](https://github.com/Catrobat/Catroweb/pull/793/commits/668bb1fdf34dfa244cc52cde36663ab37f9ebd10)
 - [Embroidery flavor](https://github.com/Catrobat/Catroweb/commit/8b9d83cf47af78184b5d88ce0356f2a4a63da53c) + [part 2](https://github.com/Catrobat/Catroweb/commit/d864ceced09e0dbe73f95c8bb1a4d2d56a41cb1c)
 
 ##### Refactor of:
